@@ -153,15 +153,17 @@ a:hover {
 }
 
 .site-name img {
-	width: 150px;
+
 	height: 37px
 }
 .logo {
 	margin: 100px 0 40px 0;
 }
 .logo img{
-	width: 600px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
+  max-width: 200px;
+  max-height: 100px;
 }
 .landing h1{
 	font-size: 56px;
@@ -180,7 +182,7 @@ a:hover {
 	font-size: 17px !important;
 }
 .head-btn {
-	margin-bottom: 150px;
+	margin-bottom: 30px;
 }
 .option {
 	text-transform: uppercase;
@@ -212,7 +214,6 @@ a:hover {
 	border: solid 1px #dadada;
 	background-color: #fff;
 	color: #333;
-	height: 55px;
 }
 .form-header .btn {
 	border-radius: 0;
@@ -261,16 +262,17 @@ a:hover {
 .btn-section {
 	padding-top: 20px;
 }
-#feature {
-	padding-top: 100px;
+#locations {
+	padding-top: 30px;
 	background: #f6f6f6;
+	padding-bottom: 30px;
 }
-#feature h2 {
+#locations h2 {
 	margin: 15px 0 15px 0;
 	font-size: 40px;
 	font-weight: 300;
 }
-#feature .feature-title p {
+#locations .feature-title p {
 	font-size: 18px;
 }
 .row-feat {
@@ -279,23 +281,28 @@ a:hover {
 .feat-list {
 	margin-top: 40px;
 }
+.feat-list p{
+	width: 85%;
+  float: left;
+  padding-left: 5%;
+  padding-bottom: 0.5em;
+}
 .feat-list i {
-	font-size: 48px;
+	font-size: 2em;
 	float: left;
-	width: 20%;
-	color: #555;
+	width: 10%;
+  color: #3eb0f7;
 	height: 100%;
 	position: relative;
-	opacity: 0.6;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
+
 .feat-list:hover i {
-	color: #3eb0f7;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
-#feature .inner {
+#locations .inner {
 	float: left;
 	display: inline-block;
 	width: 80%;
@@ -713,13 +720,36 @@ a:hover {
 .control-group .controls {
 	overflow-x: hidden;
 }
+
+.hero-logo {
+  margin: 100px 0 40px 0;
+}
+.hero-logo h2 {
+  font-size: 2em;
+  margin: 0;
+  line-height: 1em;
+}
+.hero-logo p {
+  padding: 0;
+}
+.hero-cta {
+  font-size: 1.3em;
+}
+
+
+.bring-front {
+  position: relative;
+  z-index: 100;
+}
+
+
 /* iPads (portrait) ----------- */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : portrait) {
 	.head-btn {
-		margin: 50px 0 100px;
+		margin: 50px 0 50px;
 	}
 	.signup-header {
 		margin: 50px 0 100px;
@@ -746,8 +776,9 @@ and (orientation : portrait) {
 	.btn-section {
 		text-align: center;
 	}
-	#feature {
+	#locations {
 		padding-top: 75px;
+  	padding-bottom: : 30px;
 	}
 	.feature-img {
 		margin-top: 0;
@@ -822,6 +853,13 @@ and (orientation : landscape) {
 	.logo {
 		margin: 40px 0 30px 0;
 	}
+  .hero-logo {
+    margin: 0 0 25px 0;
+    text-align: center;
+  }
+  .hero-logo h2 {
+    font-size: 4em;
+  }
 	.head-btn {
 		margin: 30px 0 80px;
 	}
@@ -844,8 +882,9 @@ and (orientation : landscape) {
 	.btn-section {
 		text-align: center;
 	}
-	#feature {
+	#locations {
 		padding-top: 50px;
+  	padding-bottom: 30px;
 	}
 	.row-feat {
 		padding-top: 10px;
@@ -887,6 +926,9 @@ and (orientation : landscape) {
 	.feature-img {
 		margin-top: 0;
 	}
+  .logo {
+    text-align: center;
+  }
 }
 
 /* iPhone 6 (landscape) ----------- */
@@ -933,8 +975,9 @@ and (orientation : landscape) {
 	#policy {
 		padding-top: 50px;
 	}
-	#feature {
+	#locations {
 		padding-top: 50px;
+  	padding-bottom: 30px;
 	}
 	.feat-list i {
 		padding-left: 20px;
@@ -979,13 +1022,13 @@ and (orientation : landscape) {
 
 /* smart phone width: 360px ----------- */
 @media (max-width: 360px) {
-	#intro h2, #feature h2, #feature-2 h2 {
+	#intro h2, #locations h2, #feature-2 h2 {
 		font-size: 30px;
 	}
 	.feat-list i {
 		padding-left: 0;
 	}
-	#feature .inner {
+	#locations .inner {
 		padding-left: 15px;
 	}
 	.video-header {
