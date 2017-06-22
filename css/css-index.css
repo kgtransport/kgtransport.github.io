@@ -446,22 +446,16 @@ a:hover {
 }
 #client {
 	background: #f6f6f6;
-	padding: 70px 0 70px;
+	padding: 10px 0 10px;
 }
 #client img {
-	max-height: 80px;
-	margin: 0 20px;
+  content:url("/images/logo-d.png");
 	opacity: 1;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 }
-#client img:hover {
-	opacity: 0.7;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-}
+
 #testi {
 	padding: 100px 0 100px;
 }
@@ -602,7 +596,6 @@ a:hover {
 }
 #footer {
 	background: #fff;
-	padding: 50px 0 50px;
 }
 .social ul {
 	padding: 0;
@@ -793,10 +786,7 @@ and (orientation : portrait) {
 	.feature-2-pic {
 		margin-top: 40px;
 	}
-	#client img {
-		margin: 10px 0 10px;
-		max-height: 40px;
-	}
+
 	.video-header {
 		margin: 50px 0 30px;
 	}
@@ -840,9 +830,7 @@ and (orientation : landscape) {
 	.feature-2-pic {
 		margin-top: 50px;
 	}
-	#client img {
-		max-height: 45px;
-	}
+
 	.video-header {
 		margin: 50px 0 30px;
 	}
@@ -908,9 +896,7 @@ and (orientation : landscape) {
 	.price-box {
 		margin-bottom: 30px;
 	}
-	#client img {
-		margin: 10px 0 10px;
-	}
+
 	.contact-left {
 		margin-bottom: 50px;
 	}
@@ -920,6 +906,9 @@ and (orientation : landscape) {
 	#bottom-action {
 		text-align: center;
 	}
+  #client img {
+    content: url("/images/logo-m.png")
+  }
 }
 /* iPhone 6Plus (landscape) ----------- */
 @media (max-width: 736px) {
@@ -1005,6 +994,9 @@ and (orientation : landscape) {
 	.download-text p {
 		line-height: 1.5;
 	}
+  #client img {
+    content: url("/images/logo-s.png")
+  }
 }
 
 /* iPhone 4 (landscape) ----------- */
