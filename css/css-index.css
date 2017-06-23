@@ -407,6 +407,11 @@ a:hover {
 	font-size: 75px;
 	margin-top: 20px;
 }
+.price-heading img {
+	color: #d1d1d1;
+	font-size: 75px;
+	margin-top: 20px;
+}
 .price-group {
 	padding: 30px 0 10px;
 }
