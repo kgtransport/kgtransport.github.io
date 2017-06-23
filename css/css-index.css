@@ -742,6 +742,20 @@ a:hover {
   z-index: 100;
 }
 
+.list-inline{
+  display:block;
+  margin-top: 20px;
+}
+.list-inline li{
+  display:inline-block;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+.list-inline li:after{
+  content:'|';
+  margin:0 10px;
+}
+
 
 /* iPads (portrait) ----------- */
 @media only screen
