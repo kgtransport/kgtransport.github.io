@@ -136,10 +136,10 @@ a:hover {
 	color: #3eb0f7;
 }
 .btn-secondary {
-	font-size: 20px;
-	font-weight: 300;
+	font-size: 1.3em;
+	font-weight: bolder;
 	line-height: 20px;
-	padding: 20px 50px;
+	padding: 20px 20px;
 	height: 65px;
 	border: none;
 	background: #3eb0f7;
@@ -736,6 +736,21 @@ a:hover {
   font-size: 1.3em;
 }
 
+#stations {
+  padding: 40px 0px;
+}
+.stations {
+  list-style: circle;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.stations li {
+  font-size: 1.2em;
+  font-weight: bolder;
+
+}
+.stations li small {
+}
 
 .bring-front {
   position: relative;
@@ -1078,6 +1093,10 @@ and (orientation : landscape) {
 		height: 35px;
 		border-radius: 80px;
 	}
+  .btn-secondary {
+    font-size: 16px;
+
+  }
 	.subscribe-form {
 		margin: 50px auto 110px;
 	}
