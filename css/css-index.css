@@ -777,6 +777,25 @@ a:hover {
   text-decoration-color: white;
 }
 
+.pt-30 {
+	padding-top: 30px;
+}
+
+.sticky-whatsapp{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: block;
+}
+
+.sticky-whatsapp img {
+	width: 40px;
+}
+
+.scrollToTop {
+	bottom: 70px;
+}
+
 
 /* iPads (portrait) ----------- */
 @media only screen
@@ -892,6 +911,9 @@ and (orientation : landscape) {
   }
 	.head-btn {
 		margin: 30px 0 80px;
+	}
+	.pt-30 {
+		padding-top: 0;
 	}
 	.signup-header {
 		margin: 70px 0 80px;
